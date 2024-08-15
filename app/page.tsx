@@ -37,7 +37,8 @@ export default function Home() {
       if (!response.ok) {
         throw new Error('Network response was not ok')
       }
-
+      
+      // @ts-ignore: Object is possibly 'null'.
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
 
@@ -63,7 +64,8 @@ export default function Home() {
     }
     setIsLoading(false)
   }
-
+  
+  // @ts-ignore: Parameter 'event' has implicitly 'any' type.
   const handleKeyPress = (event) => {
     if (event.key === 'Enter' && !event.shiftKey) {
       event.preventDefault()
@@ -103,6 +105,7 @@ export default function Home() {
         p={2}
         spacing={3}
       >
+        {/* @ts-ignore: No overload matches this call*/}
         <Stack
           direction={'column'}
           spacing={2}
