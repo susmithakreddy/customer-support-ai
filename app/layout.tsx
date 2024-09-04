@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Finnoula.ai",
-  description: "One stop destination for all you financial advice!",
+  title: "Betsy.ai",
+  description: "An AI-powered therapist at your fingertips",
 };
 
 export default function RootLayout({
