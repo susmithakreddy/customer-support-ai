@@ -21,4 +21,4 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Deploy on Vercel
 
-Check out our https://finnoulaai-susmitha-reddys-projects.vercel.app/ to see how it works!!.
+Check out our https://betsyai-susmitha-reddys-projects.vercel.app/ to see how it works!!.
